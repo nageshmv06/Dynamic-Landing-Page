@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    color: white ;
+   
+}
+
+#time {
+    font-size: 6rem;
+    
+}
+
+h1 {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+    
+}
+
+@media (max-width: 700px) {
+    #time {
+        font-size: 6rem;
+    }
+}
+
+.Img {
+    background-image: url(./img/Morning.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+}
+
+.Img2 {
+    background-image: url(./img/Afternoon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+}
+
+.Img3 {
+    background-image: url(./img/Night.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25% 75%;
+    color: white;
+
+}
+
+@media (max-width: 600px) {
+    #time {
+        font-size: 4rem;
+        
+    }
+    #greeting,
+    #name {
+        font-size: 0.8em;
+    }
+}
